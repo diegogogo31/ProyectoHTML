@@ -1,0 +1,145 @@
+body {
+  background-image: url("imagen/nudAranwa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  padding-top: 100px;
+  margin: 0;
+  
+}
+
+.navbar {
+    background-color: #948c67;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #ddd;
+}
+
+.explorar {
+    background-color: #f6f6f6;
+    padding: 60px 10%;
+    text-align: center;
+    margin-top: 300px;
+  }
+  
+  .explorar .etiqueta {
+    color: #a38208;
+    letter-spacing: 3px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .explorar h2 {
+    color: #223b70;
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .texto {
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .texto h3 {
+    font-size: 24px;
+    color: #223b70;
+    margin-bottom: 10px;
+  }
+  
+  .texto p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .imagen img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .nuestros-cuartos {
+    padding: 60px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .nuestros-cuartos h2 {
+    font-size: 36px;
+    color: #223b70;
+    margin-bottom: 10px;
+  }
+  
+  .subtitulo {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .contenido-cuartos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  
+  .imagen-cuarto img {
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .info-cuarto ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .info-cuarto li {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #333;
+  }

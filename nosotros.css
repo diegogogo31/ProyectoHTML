@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    background-image: url("imagen/fondAranwa.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed; 
+    min-height: 100vh; 
+    margin: 0;
+    padding: 0;
+  
+}
+.navbar {
+    background-color: #95916b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 5%;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 100;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+    height: 61px;
+    margin-right: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: #ddd;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 80px; /* para que no tape el navbar */
+    text-align: center;
+}
+
+.inicio-container {
+    background-color: rgba(0, 0, 0, 0.6); /* fondo oscuro translúcido */
+    padding:60px;
+    border-radius: 15px;
+    max-width: 800px;
+    color: white;
+    margin: 143px auto 0 auto;
+}
+
+.inicio-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 85px;
+}
+
+.inicio-container p {
+    font-size: 18px;
+}
+
+/* */
+.nosotros {
+    background: linear-gradient(to bottom, #fdfcfb, #f6f5f3);
+    padding: 60px 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nosotros .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nosotros h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #827050;
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nosotros p {
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 20px;
+    word-spacing: 2px;
+  }
+  
+  .nosotros p:last-child {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .nosotros .about-us {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  /* mision y vision */
+
+  .mision {
+    background: linear-gradient(to bottom, #fdfcfb, #f6f5f3);
+    padding: 60px 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mision .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .mission-vision {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  
+  .mission-vision h2 {
+    font-size: 2.5rem;
+    color: #827050;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .mission-vision p {
+    margin: 15px 0;
+    color: #555;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  
+  .mission-vision ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+  }
+  
+  .mission-vision ul li {
+    margin: 10px 0;
+    padding-left: 35px;
+    position: relative;
+    color: #444;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .mission-vision ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #827050;
+    font-size: 1.3rem;
+  }
+  
+  .image-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .image-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .mision .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .mission-vision {
+      max-width: 100%;
+    }
+  
+    .image-column img {
+      max-width: 100%;
+    }
+  }
+
+  /* mision y vision */
+
+  /* salud y bienestar */
+
+  .salud-bienestar {
+    background: #f9f9f9;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .salud-bienestar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+
+  .salud-bienestar .container{
+    font-size: 2rem;
+    color: #827050;
+    margin-bottom: 15px;
+    text-align: center; /* <- Esto centra el título */
+  }  
+  
+  .health-wellness h2 {
+    font-size: 2rem;
+    color: #827050;
+    margin-bottom: 15px;
+  }
+  
+  .health-wellness p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .imageB-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .imageB-container img {
+    width: 48%; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .imageB-container img:hover {
+    transform: scale(1.05); 
+  }
+  
+  @media (max-width: 768px) {
+    .imageB-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+  
+    .imageB-container img {
+        width: 100%; 
+    }
+  }
+
+  /* salud y bienestas */
+
+  /* parte de contactos */
+  footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 50px 20px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 40px 0;
+  }
+  
+  .footer-column {
+    flex: 1 1 200px;
+    min-width: 200px;
+  }
+  
+  .footer-logo {
+    width: 180px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.1rem;
+    color: #b19b68;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+  }
+  
+  .footer-column p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .social-icons i {
+    font-size: 1.2rem;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .social-icons i:hover {
+    color: #b19b68;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  }
